@@ -67,6 +67,8 @@ h2 {
 .inputs {
   text-align: center;
   margin: 50px;
+  
+
 }
 
 .header {
@@ -80,4 +82,25 @@ h2 {
 }
 .single-input {
   margin: 10px;
+  width: 15%;
+  height: 20px;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid rgb(187, 187, 240);
+
+}
+
+button {
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: gray;
+  font-weight: bold;
+  width: 8%;
+  height: 25px;
+}
+
+button:hover {
+  background-color: rgb(136, 136, 236);
+  color: white;
 }
