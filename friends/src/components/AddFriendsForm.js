@@ -30,33 +30,39 @@ const AddFriendsForm = (props) => {
   };
 
   return (
-    <div>
-      <h2>Add new friends</h2>
+    <div className="add-friend">
+        <h1>Friends List</h1>
       <form onSubmit={handleSubmit}>
+          <div class="inputs">
         <input
+        className="single-input"
           type="text"
           name="name"
           onChange={changeHandler}
-          placeholder="name"
+          placeholder="Name"
           value={item.name}
         />
 
         <input
+        className="single-input"
           type="text"
           name="age"
           onChange={changeHandler}
-          placeholder="age"
+          placeholder="Age"
           value={item.age}
         />
 
         <input
+        className="single-input"
           type="text"
           name="email"
           onChange={changeHandler}
-          placeholder="email"
+          placeholder="Email"
           value={item.email}
         />
         <button>Add New Friend</button>
+        
+        </div>
       </form>
     </div>
   );
